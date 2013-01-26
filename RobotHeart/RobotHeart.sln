@@ -5,6 +5,8 @@ Project("{097647B3-EC58-F6D2-5820-99E9EB7A5BE4}") = "RobotHeart", "Assembly-CSha
 EndProject
 Project("{097647B3-EC58-F6D2-5820-99E9EB7A5BE4}") = "RobotHeart", "Assembly-UnityScript-firstpass.unityproj", "{EC5DD0ED-B1C3-9D7E-A8D4-AF41F5D6DE79}"
 EndProject
+Project("{097647B3-EC58-F6D2-5820-99E9EB7A5BE4}") = "RobotHeart", "Assembly-UnityScript.unityproj", "{35FEA8BB-D74B-5DBC-E457-54784B4B53DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,15 @@ Global
 		{EC5DD0ED-B1C3-9D7E-A8D4-AF41F5D6DE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC5DD0ED-B1C3-9D7E-A8D4-AF41F5D6DE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC5DD0ED-B1C3-9D7E-A8D4-AF41F5D6DE79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35FEA8BB-D74B-5DBC-E457-54784B4B53DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35FEA8BB-D74B-5DBC-E457-54784B4B53DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35FEA8BB-D74B-5DBC-E457-54784B4B53DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35FEA8BB-D74B-5DBC-E457-54784B4B53DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+												GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -41,4 +47,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal
