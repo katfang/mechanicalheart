@@ -5,7 +5,6 @@ var energyLevel : float = 50;
 
 function Start (){
 	heartLevel = 20;
-	
 }
 
 function Update () {
@@ -23,7 +22,15 @@ function Update () {
 	if (heartLevel >=50 ){
 		YouWin();
 	}
-	print(heartLevel);
+	//print(heartLevel);
+}
+
+function OnTriggerEnter(foo:Collider){
+	print("TRIGGER ENTER");
+}
+
+function OnCollisionEnter(foo:Collision){
+	print("COLLISION ENTER");
 }
 
 function YouFailed(){
